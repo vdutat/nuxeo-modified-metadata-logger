@@ -1,0 +1,2 @@
+nuxeo-modified-metadata-logger
+==============================
