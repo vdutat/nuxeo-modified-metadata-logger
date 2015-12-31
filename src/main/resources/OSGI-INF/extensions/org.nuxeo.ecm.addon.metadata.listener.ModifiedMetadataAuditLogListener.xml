@@ -1,0 +1,12 @@
+<component name="org.nuxeo.ecm.addon.metadata.adapter.listener.contrib.ModifiedMetadataAuditLogListener">
+
+  <extension target="org.nuxeo.ecm.core.event.EventServiceComponent"
+    point="listener">
+
+    <listener name="modifiedMetadataAuditLoglistener" async="false" postCommit="false"
+      class="org.nuxeo.ecm.addon.metadata.listener.ModifiedMetadataAuditLogListener" order="100">
+      <event>beforeDocumentModification</event>
+    </listener>
+  </extension>
+
+</component>
